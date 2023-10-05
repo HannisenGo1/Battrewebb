@@ -1,18 +1,33 @@
 body {
 	background-image: url(internet.jpg);
 }
+body {
+	display: block;
+	margin:8px;
+}
 
+.menyknappar{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: none;
+	padding: 2em;
+	text-align: center;
+	border: 1em;
+	position: fixed;
+	width: 100%;
+}
 header {
 	color:rgb(66, 9, 209);
 	position: center;
 }
 h1 {
-	color: rgb(66, 9, 209);
+	color: rgb(4, 4, 4);
 	position: center;
 }
 
 h2 {
-	color: white;
+	color: rgb(3, 3, 3);
 }
 
 .foto-container {
