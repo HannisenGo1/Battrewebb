@@ -15,10 +15,14 @@ h2 {
 	color: white;
 }
 
+.foto-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
 img {
-	grid-row: space-around;
-	min-width: 300px;
-	max-width: 780px;
+	min-width: 225px;
+	max-width: 900px;
 }
 @media screen {
 	
