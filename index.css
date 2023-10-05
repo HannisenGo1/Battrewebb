@@ -1,9 +1,16 @@
-
+body {
+	background-color: green;
+}
 
 header {
 	color:red;
 	position: center;
 }
 h1 {
-	color: red;
+	color: black;
+	position: center;
+}
+
+h2 {
+	color: white;
 }
