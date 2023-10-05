@@ -1,16 +1,25 @@
 body {
-	background-color: rgb(12, 76, 12);
+	background-color: rgb(29, 35, 29);
 }
 
 header {
-	color:red;
+	color:rgb(66, 9, 209);
 	position: center;
 }
 h1 {
-	color: black;
+	color: rgb(66, 9, 209);
 	position: center;
 }
 
 h2 {
 	color: white;
+}
+
+img {
+	grid-row: space-around;
+	min-width: 300px;
+	max-width: 780px;
+}
+@media screen {
+	
 }
