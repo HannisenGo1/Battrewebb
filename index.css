@@ -16,8 +16,8 @@ body {
 }
 
 .menyknappar a {
-	background-color: rgb(195, 224, 248);
-	color: black;
+
+	color: white;
 	margin: 0.5em;
 	font-weight: bold;
 	font-size: 19px;
@@ -28,30 +28,30 @@ body {
 .div-datum { 
  display: grid;
  padding: 5em;
- color: black;
+ color: white;
  text-align: center;
 }
 
 
 .all-text-under {
-	color:black;
+	color:white;
 	text-align: center;
 
 
 }
 
 header {
-	color:rgb(66, 9, 209);
+	color:rgb(255, 255, 255);
 	position: center;
 	padding: 4em;
 }
 h1 {
-	color: rgb(4, 4, 4);
+	color: rgb(255, 254, 254);
 	position: center;
 }
 
 h2 {
-	color: rgb(3, 3, 3);
+	color: rgb(255, 255, 255);
 }
 
 .foto-container {
