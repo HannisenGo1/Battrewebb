@@ -43,10 +43,13 @@ h3{
 	color:blue;
 	cursor: pointer;
 }
-.fa-solid fa-arrow-up {
-	font-size: 20px;
+.fa-solid.fa-arrow-up {
+	font-family: "font-awesome";
+	font-size: 10px;
 	color: blue;
 	background-color: black;
+	color:blue;
+	cursor: pointer  /*Visar att pilen är klickbas*/
 }
 
 
