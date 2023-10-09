@@ -1,6 +1,8 @@
 body {
 	background-image: url(internet.jpg);
-
+    background-size: cover; /*täcker hela skärmen*/
+	background-repeat: no-repeat; /*förhindra upprepning*/
+	background-attachment: fixed;   /*fäster bakgrundsbilden*/
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 
 h1 {
 	text-align: row;
-	text-size: 3em;
+	font: 3em;
 	padding:0.5em;
 	color:black;
 }
@@ -36,20 +38,32 @@ h3{
 	text-align: row;
 }
 
-.div-pil {
-	display: none;
-	position:fixed;
-	bottom: 20px;
-	color:blue;
-	cursor: pointer;
-}
-.fa-solid.fa-arrow-up {
+
+.pilen {
 	font-family: "font-awesome";
-	font-size: 10px;
 	color: blue;
 	background-color: black;
-	color:blue;
 	cursor: pointer  /*Visar att pilen är klickbas*/
+
+}
+.pilen:hover {
+	background-color: none;
+	color: black;
+
+}
+
+.scroll-to-top {
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+	cursor: pointer;
+}
+.scroll-to-top i {
+	font-size: 3em;
+}
+.scroll-to-top:hover{
+	background-color: blue;
+	color:black;
 }
 
 
@@ -59,7 +73,6 @@ h3{
 	justify-content: space-around;
 	align-items: center;
 	height: 4em;
-
 	width: 100%;
 }
 
