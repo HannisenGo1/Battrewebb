@@ -7,15 +7,27 @@ body {
 	margin: 2em;
 }
 
+h1 {
+	text-align: left;
+	text-size: 5px;
+	padding:10em;
+	color:black;
+}
+
+h2 {
+	text-align: left;
+	text-size: 3px;
+	padding: 10em;
+	color: black;
+
+}
+
+
 .div-text {
 	display: grid;
-		padding: 5em;
-		color: black;
-		text-align: row;
-}
-.p {
-	color:black
-	margin: 6em;
+	padding: 5em;
+	color: black;
+	text-align: row;
 }
 
 .menyknappar {
