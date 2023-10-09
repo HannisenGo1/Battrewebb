@@ -25,11 +25,18 @@ body {
 	border-radius: 4px;
 	text-align: center;
 }
+.div-datum { 
+ display: grid;
+ padding: 5em;
+ color: black;
+ text-align: center;
+}
+
 
 .all-text-under {
 	color:black;
 	text-align: center;
-	
+
 
 }
 
