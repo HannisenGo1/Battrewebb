@@ -1,5 +1,5 @@
 body {
-	background-image: url(framsidan.jpg);
+	background-image: url(circle.jpg);
 	background-size: cover; /*täcker hela skärmen*/
 	background-repeat: no-repeat; /*förhindra upprepning*/
 	background-attachment: fixed; /*fäster bakgrundsbilden*/
@@ -30,18 +30,12 @@ body {
 }
 .div-datum { 
  display: grid;
- padding: 5em;
+ padding: 1.5em;
+ text-align: center;
  color: white;
- text-align: row;
+ font-size: 1.4em;
 }
 
-
-.all-text-under {
-	color:white;
-	text-align: center;
-
-
-}
 
 header {
 	color:rgb(255, 255, 255);
@@ -49,12 +43,18 @@ header {
 	padding: 4em;
 }
 h1 {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0.5em;
 	color: rgb(255, 255, 255);
-	position: center;
 }
 
 h2 {
-	color: rgb(222, 245, 228);
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5em;
+	color: rgb(255, 255, 255);
+
 }
 
 .foto-container {
@@ -67,5 +67,6 @@ img {
 	max-width: 900px;
 }
 @media screen {
-	
+	max-width: ;
+	min-width: ;
 }
