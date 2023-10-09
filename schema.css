@@ -141,5 +141,5 @@ input:invalid {
 }
 
 input:invalid+.error-message {
-	visibility: hidden;
+	visibility: visible;
 }
