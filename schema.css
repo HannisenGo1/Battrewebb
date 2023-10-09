@@ -93,3 +93,53 @@ p {
 	border-radius: 3px;
 	text-align: center;
 }
+
+form {
+	border: 2px solid white;
+	margin: 0.5em 0;
+	padding: 0 1em;
+	/* första är upptill */
+}
+
+.form-section {
+	display: flex
+	color: white;
+		flex-direction: column;
+	/* göra det till column */
+	margin: 1em 0;
+}
+
+.form-section label {
+	color: white;
+}
+
+.form-section button {
+	max-width: 10em;
+}
+
+.form-section.row {
+	flex-direction: row;
+}
+
+.form-number {
+	margin: 0.5 0;
+}
+
+input:valid {
+	border-right: 0.3em solid green;
+}
+
+input:invalid {
+	border-right: 0.3em solid red;
+}
+
+.error-message {
+	visibility: hidden;
+	margin: 0;
+	color: red;
+	font-weight: bold;
+}
+
+input:invalid+.error-message {
+	visibility: hidden;
+}
