@@ -1,5 +1,5 @@
 body {
-	background-image: url(internet.jpg);
+	background-image: url(cyber.jpg);
     background-size: cover; /*täcker hela skärmen*/
 	background-repeat: no-repeat; /*förhindra upprepning*/
 	background-attachment: fixed;   /*fäster bakgrundsbilden*/
@@ -7,41 +7,41 @@ body {
 
 body {
 	display: block;
-	margin: 2em;
+	margin: 1em;
 	
 }
 
 h1 {
 	text-align: row;
-	font-size: 2em;
-	padding:0.5em;
-	color:black;
+	font-size: 1.5em;
+	padding: 0.5em;
+	color:rgb(255, 255, 255);
 }
 
 h2 {
 	text-align: row;
 	font-size: 1em;
-	padding: 0.2em;
-	color: black;
+	padding: 0.1em;
+	color: rgb(255, 255, 255);
 
 }
 
 h3{
 	text-align: center;
 	font-size: 2em;
-	color: black;
+	color: rgb(255, 255, 255);
 }
 
 p {
 	font-size: 1em;
-	color:black;
+	color:rgb(255, 255, 255);
 	margin: 0.5em;
 }
 
 .div-text {
 	display: grid;
 	padding: 1em;
-	color: black;
+	color: rgb(255, 255, 255);
 	text-align: row;
 }
 
