@@ -1,5 +1,6 @@
 body {
 	background-image: url(internet.jpg);
+
 }
 
 body {
@@ -8,20 +9,25 @@ body {
 }
 
 h1 {
-	text-align: left;
-	text-size: 5px;
-	padding:10em;
+	text-align: row;
+	text-size: 3em;
+	padding:0.5em;
 	color:black;
 }
 
 h2 {
-	text-align: left;
-	text-size: 3px;
-	padding: 10em;
+	text-align: row;
+	text-size: 2em;
+	padding: 0.5em;
 	color: black;
 
 }
 
+h3{
+	text-align: center;
+	padding: 0.2em;
+	color: black;
+}
 
 .div-text {
 	display: grid;
@@ -30,12 +36,27 @@ h2 {
 	text-align: row;
 }
 
+.div-pil {
+	display: none;
+	position:fixed;
+	bottom: 20px;
+	color:blue;
+	cursor: pointer;
+}
+.fa-solid fa-arrow-up {
+	font-size: 20px;
+	color: blue;
+	background-color: black;
+}
+
+
+
 .menyknappar {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 4em;
-	position: fixed;
+
 	width: 100%;
 }
 
