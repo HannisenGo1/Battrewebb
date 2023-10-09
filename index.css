@@ -29,7 +29,7 @@ body {
  display: grid;
  padding: 5em;
  color: white;
- text-align: center;
+ text-align: row;
 }
 
 
@@ -46,12 +46,12 @@ header {
 	padding: 4em;
 }
 h1 {
-	color: rgb(255, 254, 254);
+	color: rgb(16, 255, 76);
 	position: center;
 }
 
 h2 {
-	color: rgb(255, 255, 255);
+	color: rgb(16, 255, 76);
 }
 
 .foto-container {
