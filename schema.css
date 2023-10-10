@@ -53,10 +53,7 @@ p {
 	cursor: pointer  /*Visar att pilen är klickbas*/
 }
 
-.fas fa-arrow-up a {
-	color: white;
 
-}
 .scroll-to-top {
 	position: fixed;
 	bottom:20px;

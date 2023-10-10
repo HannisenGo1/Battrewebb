@@ -5,27 +5,6 @@ background-repeat: no-repeat; /*förhindra upprepning*/
 background-attachment: fixed; /*fäster bakgrundsbilden*/
 }
 
-.pilen {
-	font-family: "font-awesome";
-	color: blue;
-	background-color: black;
-	cursor: pointer
-		/*Visar att pilen är klickbas*/
-
-}
-
-
-.scroll-to-top {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	cursor: pointer;
-}
-
-.scroll-to-top i {
-	font-size: 3em;
-}
-
 
 .menyknappar {
 	display: flex;
