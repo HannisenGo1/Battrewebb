@@ -1,3 +1,27 @@
 body {
-	background-image: url(internet.jpg);
+	background-image: url(cyber.jpg);
+	background-size: cover;
+	/*täcker hela skärmen*/
+	background-repeat: no-repeat;
+	/*förhindra upprepning*/
+	background-attachment: fixed;
+	/*fäster bakgrundsbilden*/
+}
+body {
+	display: block;
+	margin: 1em;
+
+}
+
+.flex-container {
+	display: flex;
+	background-color: rgb(101, 210, 250);
+	margin: 10em;
+
+}
+
+.flex-container >div {
+	color: black;
+	flex-direction: row;
+	align-items: center;
 }
