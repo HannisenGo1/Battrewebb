@@ -158,19 +158,17 @@ input:invalid+.error-message {
 		height: 4em;
 		width: 100%;
 }
-.skickaknapp { 
+
+.skickaknapp {
 	display: flex;
-		justify-content: space-around;
-		align-items: left;
-		height: 3em;
-		width: 100%;
+	justify-content: space-around;
+	width: 100%;
 }
+
 .skickaknapp a {
 	color: white;
-		margin: 0.5em;
-		font-weight: bold;
-		font-size: 2em;
-		padding: 0.2em;
-		border-radius: 3px;
-		text-align: left;
+	margin: 0.5em;
+	font-weight: bold;   /* gör texten fet */
+	font-size: 1.5em;
+	text-align: left;
 }
