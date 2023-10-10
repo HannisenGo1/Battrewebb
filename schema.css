@@ -85,7 +85,7 @@ p {
 
 .menyknappar a {
 
-	color: #6495ED;
+	color: white;
 	margin: 0.5em;
 	font-weight: bold;
 	font-size: 2em;
@@ -126,9 +126,11 @@ form {
 	margin: 0.5 0;
 }
 
-.form-maten label{
-	color: white;
+.radio {
+	cursor: pointer;
+
 }
+
 
 input:valid {
 	border-right: 0.3em solid green;
