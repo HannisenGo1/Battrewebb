@@ -48,17 +48,15 @@ p {
 
 .pilen {
 	font-family: "font-awesome";
-	color: blue;
+	color: rgb(255, 255, 255);
 	background-color: black;
 	cursor: pointer  /*Visar att pilen är klickbas*/
-
-}
-.pilen:hover {
-	background-color: none;
-	color: black;
-
 }
 
+.fas fa-arrow-up a {
+	color: white;
+
+}
 .scroll-to-top {
 	position: fixed;
 	bottom:20px;
@@ -68,11 +66,6 @@ p {
 .scroll-to-top i {
 	font-size: 3em;
 }
-.scroll-to-top:hover{
-	background-color: blue;
-	color:white;
-}
-
 
 
 .menyknappar {
