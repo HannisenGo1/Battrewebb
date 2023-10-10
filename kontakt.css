@@ -1,0 +1,68 @@
+body { 
+background-image: url(circle.jpg);
+background-size: cover; /*täcker hela skärmen*/
+background-repeat: no-repeat; /*förhindra upprepning*/
+background-attachment: fixed; /*fäster bakgrundsbilden*/
+}
+
+
+.menyknappar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 4em;
+	width: 100%;
+}
+
+.menyknappar a {
+
+	color: white;
+	margin: 0.5em;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 0.2em;
+	border-radius: 3px;
+	text-align: center;
+}
+
+h1 {
+color:white;
+align-items: center;
+text-align: 2em;
+padding: 0.1em;
+margin: 0.2em;
+}
+
+h2 {
+color:white;
+align-items: center;
+text-align: 1em;
+}
+
+.form-section label {
+	color: white;
+}
+
+input:valid {
+	border-right: 0.3em solid green;
+}
+
+input:invalid {
+	border-right: 0.3em solid red;
+}
+
+.error-message {
+	visibility: hidden;
+	margin: 0;
+	color: red;
+	font-weight: bold;
+}
+.form-textning label {
+	color: white;
+	font-size: 18px;
+}
+.form-textning input {
+	height: 5em;
+	width: 20em;
+	text-align: left;
+}
