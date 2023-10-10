@@ -126,6 +126,10 @@ form {
 	margin: 0.5 0;
 }
 
+.form-maten label{
+	color: white;
+}
+
 input:valid {
 	border-right: 0.3em solid green;
 }
