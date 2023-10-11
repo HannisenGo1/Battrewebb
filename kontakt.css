@@ -5,6 +5,9 @@ background-repeat: no-repeat; /*förhindra upprepning*/
 background-attachment: fixed; /*fäster bakgrundsbilden*/
 }
 
+@media screen {
+	max-width: 350px;
+}
 
 .menyknappar {
 	display: flex;
@@ -49,6 +52,7 @@ h3{
 	display:flex;
 	background-color: none;
 	justify-content: space-around; /*för att lägga boxarna jämt*/
+	width: 100%;
 }
 
 .flex-container > div {

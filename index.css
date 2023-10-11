@@ -8,13 +8,15 @@ body {
 	display: block;
 	margin: 1em;
 }
+@media screen {
+	max-width: 350px;
+}
 
 .menyknappar {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	height: 4em;
-	position: fixed;
 	width: 100%;
 }
 
