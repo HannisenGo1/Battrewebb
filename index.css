@@ -30,34 +30,27 @@ body {
 	border-radius: 3px;
 	text-align: center;
 }
-.div-datum { 
- display: grid;
- padding: 1.5em;
- text-align: center;
- color: white;
- font-size: 1.4em;
-}
-
 
 header {
 	color:rgb(255, 255, 255);
 	position: center;
 	padding: 4em;
 }
+
 h1 {
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	padding: 1em;
+}
+
+h2 {
 	text-align: center;
 	font-size: 1.5em;
 	padding: 0.5em;
 	color: rgb(255, 255, 255);
 }
 
-h2 {
-	text-align: center;
-	font-size: 1em;
-	padding: 0.5em;
-	color: rgb(255, 255, 255);
-
-}
 
 .foto-container {
 	display: flex;
