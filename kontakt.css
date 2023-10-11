@@ -1,12 +1,14 @@
+@media screen {
+	body {
+		min-width: 350px;
+	}
+}
+
 body { 
 background-image: url(circle1.jpg);
 background-size: cover; /*täcker hela skärmen*/
 background-repeat: no-repeat; /*förhindra upprepning*/
 background-attachment: fixed; /*fäster bakgrundsbilden*/
-}
-
-@media screen {
-	max-width: 350px;
 }
 
 .menyknappar {

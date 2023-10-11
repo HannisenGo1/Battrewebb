@@ -1,26 +1,27 @@
+@media screen {
+	body {
+	min-width: 350px;
+	}
+}
+
+
 body {
 	background-image: url(cyberny.jpg);
     background-size: cover; /*täcker hela skärmen*/
 	background-repeat: no-repeat; /*förhindra upprepning*/
 	background-attachment: fixed;   /*fäster bakgrundsbilden*/
-}
-@media screen {
-	max-width: 350px;
-}
-body {
 	display: block;
-	margin: 0.5em;
-	
+	margin: 0.5em;	
 }
 
 h1 {
-	text-align: row;
+	text-align: center;
 	font-size: 1.5em;
 	color:rgb(255, 255, 255);
 }
 
 h2 {
-	text-align: row;
+	text-align: center;
 	font-size: 1.1em;
 	color: rgb(255, 255, 255);
 
@@ -29,6 +30,12 @@ h2 {
 h3{
 	text-align: center;
 	font-size: 1em;
+	color: rgb(255, 255, 255);
+}
+
+h4 {
+	text-align: left;
+	font-size:1em;
 	color: rgb(255, 255, 255);
 }
 
@@ -46,15 +53,15 @@ p {
 	text-align: row;
 }
 
-
+/*Pilen som är längst ner*/ 
 .pilen {
-	font-family: "font-awesome";
+	font-family: 'FontAwesome';
 	color: rgb(255, 255, 255);
 	background-color: black;
 	cursor: pointer  /*Visar att pilen är klickbas*/
 }
 
-
+/* När användaren trycker på pilen kommer man til toppen*/
 .scroll-to-top {
 	position: fixed;
 	bottom:20px;
@@ -65,7 +72,7 @@ p {
 	font-size: 3em;
 }
 
-
+/*Meny och knappar*/
 .menyknappar {
 	display: flex;
 	justify-content: space-around;
@@ -85,6 +92,7 @@ p {
 	text-align: center;
 }
 
+/* Gör så att det blir klickbart att välja enskilda kurser*/
 form {
 	border: 2px solid white;
 	margin: 0.5em 0;
@@ -119,10 +127,9 @@ form {
 
 .radio {
 	cursor: pointer;
-
 }
 
-
+/* märker upp så att användaren måste fylla i rött, grönt är godkänt */
 input:valid {
 	border-right: 0.3em solid green;
 }
