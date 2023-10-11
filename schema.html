@@ -9,7 +9,12 @@
 </head>
 <body>
 	
-
+<a href="#top" class="scroll-to-top">
+	<i class="fas fa-arrow-up" style="color: white;"></i>
+</a>
+<!--La till style color för att göra min pil vit som mitt önskemål-->
+<!-- Platsen längst upp på sidan -->
+<div id="top"></div>
 
 <div class="Meny-container">
 	<div class="menyknappar">
@@ -18,21 +23,15 @@
 	</div>
 </div>
 
-<a href="#top" class="scroll-to-top">
-	<i class="fas fa-arrow-up" style="color: white;"></i>
-	</a>
-	<!--La till style color för att göra min pil vit som mitt önskemål-->
-	<!-- Platsen längst upp på sidan -->
-	<div id="top"></div>
-
-
 
 	<div class="div-text">
 <h3> Program och bokning </h3>
 <h2>
 <p>Kurserna kostar 200:- styck<br>
 Dagspasset kostar 600:-  <br> 
-Maten ingår med dagspasset!</p> </h2>
+Maten ingår med dagspasset!<br>
+För att kunna delta behöver man <br>
+vara över 16år. </p> </h2>
 
 
 
@@ -140,26 +139,26 @@ användarupplevelse.</h2>
 	Mässans Gata 24, Göteborg </p>
 <form>
 	<section class="form-section">
-		<label for="förnamn">Skriv in ditt namn</label>
-		<input id="förnamn" type="text" minlenght="2" maxlength="30" value="" placeholder="namn" required  />
+		<label for="förnamn">Namn</label>
+		<input id="Förnamn+Efternamn" type="text" minlenght="2" maxlength="30" value="" placeholder="Förnamn och Efternamn" required  />
 		<p class="error-message"> var vänlig skriv in ditt namn</p>
 	</section>
 
 	<section class="form-section">
-		<label for="efternamn">Skriv in ditt efternamn</label>
-		<input id="efternamn" type="text" minlength=3 value="" placeholder="efternamn" required />
+		<label for="Adress">Adress</label>
+		<input id="Adress" type="text" minlength=3 value="" placeholder="Adress" required />
 	<p class="error-message"> var vänlig skriv in ditt efternamn</p>
 	</section>
 
 		<section class="form-section">
-			<label for="email-adress">Fyll i din mejladress</label>
+			<label for="email-adress">E-postadress</label>
 			<input id="email-adress" type="text" minlength=7 value="" placeholder="e-post" required />
 			<p class="error-message"> var vänlig skriv in korrekt email-adress</p>
 		</section>
 
 		<section class="form-number">
 			<label for="Ålder"> Ålder </label>
-			<input id="Ålder" type="number" value="" placeholder="Ålder" required min="18" max="100" />
+			<input id="Ålder" type="number" value="" placeholder="Ålder" required min="16" max="100" />
 		</section>
 
 
