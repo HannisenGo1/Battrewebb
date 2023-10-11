@@ -1,5 +1,5 @@
 body { 
-background-image: url(circle.jpg);
+background-image: url(circle1.jpg);
 background-size: cover; /*täcker hela skärmen*/
 background-repeat: no-repeat; /*förhindra upprepning*/
 background-attachment: fixed; /*fäster bakgrundsbilden*/
@@ -38,6 +38,27 @@ color:white;
 align-items: center;
 text-align: 1em;
 }
+
+h3{
+	color:white;
+	align-items:center;
+	text-align:0.5em;
+}
+
+.flex-container {
+	display:flex;
+	background-color: none;
+	justify-content: space-around; /*för att lägga boxarna jämt*/
+}
+
+.flex-container > div {
+	flex: 0.5em; /*lika mycket plats i boxarna*/
+	margin: 5em;
+	padding: 5em;
+	font-size: 1em;
+	border:1px solid #1b026d; /* Skapar kantlinje */
+}
+
 
 .form-section label {
 	color: white;

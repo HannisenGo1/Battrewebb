@@ -1,5 +1,5 @@
 body {
-	background-image: url(cyber.jpg);
+	background-image: url(cyberny.jpg);
 	background-size: cover;
 	/*täcker hela skärmen*/
 	background-repeat: no-repeat;
@@ -13,15 +13,15 @@ body {
 
 }
 
+h1 {
+text-align: center;
+color:white;
+}
+
 .flex-container {
-	display: flex;
-	background-color: rgb(101, 210, 250);
-	margin: 20em;
-
+display: flex;
+margin: 20em;
+align-items: center;
 }
 
-.flex-container >div {
-	color: black;
-	flex-direction: row;
-	align-items: center;
-}
+	
