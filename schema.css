@@ -140,14 +140,14 @@ input:invalid {
 }
 
 .error-message {
-	visibility: visible;
+	visibility: hidden;
 	margin: 0;
 	color: red;
 	font-weight: bold;
 }
 
 input:invalid+.error-message {
-	visibility: hidden;
+	visibility: visible;
 }
 
 /* stil för ansökningscontainern */
@@ -162,7 +162,6 @@ input:invalid+.error-message {
 
 .skickaknapp {
 	display: flex;
-	justify-content: space-around;
 	width: 100%;
 }
 
