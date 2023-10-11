@@ -1,3 +1,9 @@
+@media screen {
+	body {
+		min-width: 350px;
+	}
+}
+
 body {
 	background-image: url(circle1.jpg);
 	background-size: cover; /*täcker hela skärmen*/
@@ -8,9 +14,7 @@ body {
 	display: block;
 	margin: 1em;
 }
-@media screen {
-	max-width: 350px;
-}
+
 
 .menyknappar {
 	display: flex;

@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+	min-height:300px
+	font-size: 10em;
+}
+
+.cookie-card {
+position: fixed;
+bottom: 2em;
+left: 2em;
+width: 30px;
+background-color: aliceblue;
+padding: 1em;
+}
+.cookie-card * {
+	color:rgb(0, 0, 0);
+	align-items: 6em;
+}
+
+.info {
+font-size: 1em;
+color: black;
+}
+.title{ 
+font-size: 1.3em;
+margin-bottom: 0.5em;
+}
+
+.accept {
+	padding:0.4em 1em;
+	background-color: black;
+	font-size:1em;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.accept {
+	background-color: green;
+}
+
+.settings {
+	font-size: 1.5em;
+}
