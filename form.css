@@ -1,0 +1,80 @@
+/* stilar för formulär*/
+form {
+	border: 2px solid white;
+	margin: 0.5em 0;
+	padding: 0 1em;
+	/* första är upptill */
+}
+
+.form-section {
+	display: flex color: white;
+	flex-direction: column;
+	/* göra det till column */
+	margin: 1em 0;
+}
+
+.form-section label {
+	color: white;
+}
+
+.form-section button {
+	max-width: 10em;
+}
+
+.form-section.row {
+	flex-direction: row;
+}
+
+.form-number {
+	color: white;
+	margin: 0.5 0;
+}
+
+.radio {
+	cursor: pointer;
+}
+
+/* för input-fält med validering */
+input:valid {
+	border-right: 0.3em solid green;
+}
+
+input:invalid {
+	border-right: 0.3em solid red;
+}
+
+.error-message {
+	visibility: hidden;
+	margin: 0;
+	color: red;
+	font-weight: bold;
+}
+
+input:invalid+.error-message {
+	visibility: visible;
+}
+
+/* stil för ansökningscontainern */
+.ansök-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 4em;
+	width: 100%;
+}
+
+/* stil för skicka-knappen */
+
+.skickaknapp {
+	display: flex;
+	width: 100%;
+}
+
+.skickaknapp a {
+	color: white;
+	margin: 0.5em;
+	font-weight: bold;
+	/* gör texten fet */
+	font-size: 1.5em;
+	text-align: left;
+}
