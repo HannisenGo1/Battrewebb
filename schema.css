@@ -7,7 +7,7 @@
 :root {
 	/*Variabler för css här*/
 	--primary-color: rgb(255, 255, 255);
-	--primary-color1:rgb(34, 12, 132);
+	--primary-color1:rgb(28, 28, 245);
 }
 
 /*Bakgrundsbild och stil för sidan*/
@@ -20,11 +20,19 @@ body {
 	
 }
 
+header {
+	padding: 0.5em;
+	font-size: 1.1em;
+	margin: 0.3em;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /*Menyn & Knapparna ! */
 .meny-box {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+
 }
 
 .meny-box>a {
@@ -74,6 +82,13 @@ h4 {
 	font-size:1em;
 	color: var(--primary-color);
 }
+
+h5 {
+			text-align: center;
+			font-size: 1.5em;
+			color: var(--primary-color1);
+			margin: 0em;
+		}
 
 
 /* stilar för container med text */
