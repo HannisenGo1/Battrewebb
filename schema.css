@@ -49,11 +49,7 @@ h4 {
 }
 
 /* textstil för paragrafer*/
-p {
-	font-size: 1em;
-	color:var(--primary-color);
-	margin: 0.1em;
-}
+
 /* stilar för container med text */
 .div-text {
 	display: grid;
