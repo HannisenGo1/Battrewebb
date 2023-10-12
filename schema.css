@@ -20,6 +20,33 @@ body {
 	
 }
 
+/*Menyn & Knapparna ! */
+.meny-box {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.meny-box>a {
+
+	padding: 0.5em 1em;
+	border: 2px solid white;
+	margin: 1em 0.2em;
+	background-color: var(--primary-color);
+	position: relative;
+	top: 0em;
+	text-decoration: none;
+	/* offset-x offset-y blur-radius*/
+	box-shadow: 0.2em 0.3em 0.5em;
+	top: -0.3em;
+	transition: all 0.4s;
+}
+
+.meny-box>a:hover {
+	box-shadow: 0.6em 0.7em 0.7em rgb(34, 12, 132);
+	top: 0.2em;
+}
+
 /* Text stiler för texten på sidan*/
 h1 {
 	text-align: center;
@@ -65,7 +92,6 @@ h4 {
 	cursor: pointer  /*Visar att pilen är klickbas*/
 }
 
-
 /* vid klickning scrollas man till toppen av sidan*/
 
 .scroll-to-top {
@@ -82,56 +108,3 @@ h4 {
 		top: 0.2em;
 	background-color: rgb(63, 24, 236);
 }
-
-/*Menyn & Knapparna ! */
-.meny-box {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.meny-box > a {
-
-	padding: 0.5em 1em;
-		border: 2px solid white;
-		margin: 1em 0.2em;
-		background-color: var(--primary-color);
-		position: relative;
-		top: 0em;
-		text-decoration: none;
-			/* offset-x offset-y blur-radius*/
-				box-shadow: 0.2em 0.3em 0.5em;
-				top: -0.3em;
-				transition: all 0.4s;
-}
-
-.meny-box>a:hover {
-	box-shadow: 0.6em 0.7em 0.7em rgb(34, 12, 132);
-	top: 0.2em;
-}
-
-
-
-/* stil för ansökningscontainern */
-.ansök-container {
-	display: flex;
-		justify-content: space-around;
-		align-items: center;
-		height: 4em;
-		width: 100%;
-}
-/* stil för skicka-knappen */
-
-.skickaknapp {
-	display: flex;
-	width: 100%;
-}
-
-.skickaknapp a {
-	color: white;
-	margin: 0.5em;
-	font-weight: bold;   /* gör texten fet */
-	font-size: 1.5em;
-	text-align: left;
-}
-
