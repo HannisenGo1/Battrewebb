@@ -4,6 +4,48 @@
 	}
 }
 
+:root {
+	/*Variabler för css här*/
+	--primary-color: rgb(255, 255, 255);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+header {
+
+	color: var(--primary-color);
+	background-color: none;
+	padding: 2em;
+	font-size: 1.4em;
+	margin: 1em;
+	text-align: center;
+
+}
+
+header > a {
+	padding: 0.5em 1em;
+	border: 2px solid white;
+	margin: 0.4em;
+			background-color: var(--primary-color);
+	position: relative;
+	top: 0em;
+
+	/* offset-x offset-y blur-radius*/
+	box-shadow: 0.2em 0.3em 0.5em;
+	top: -0.3em;
+	transition: all 0.5s;
+}
+
+header > a:hover {
+	box-shadow: 0.6em 0.7em 0.7em rgb(44, 44, 44);
+	top: 0.2em;
+	background-color: aliceblue;
+}
+
+
 body {
 	background-image: url(circle1.jpg);
 	background-size: cover; /*täcker hela skärmen*/
@@ -16,35 +58,10 @@ body {
 }
 
 
-.menyknappar {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	height: 4em;
-	width: 100%;
-}
-
-.menyknappar a {
-
-	color: white;
-	margin: 0.5em;
-	font-weight: bold;
-	font-size: 2em;
-	padding: 0.2em;
-	border-radius: 3px;
-	text-align: center;
-}
-
-header {
-	color:rgb(255, 255, 255);
-	position: center;
-	padding: 4em;
-}
-
 h1 {
 	text-align: center;
 	font-size: 3em;
-	color: white;
+	color: var(--primary-color);
 	padding: 1em;
 }
 
@@ -52,7 +69,7 @@ h2 {
 	text-align: center;
 	font-size: 1.5em;
 	padding: 0.5em;
-	color: rgb(255, 255, 255);
+    color: var(--primary-color);
 }
 
 
@@ -64,8 +81,4 @@ h2 {
 img {
 	min-width: 225px;
 	max-width: 900px;
-}
-@media screen {
-	max-width: ;
-	min-width: ;
 }
