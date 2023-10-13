@@ -33,6 +33,7 @@ header {
 	justify-content: space-around;
 	flex-wrap: wrap;
 
+
 }
 
 .meny-box>a {
@@ -111,15 +112,15 @@ h5 {
 
 .scroll-to-top {
 	position: fixed;
-	bottom:20px;
-	right: 20px;
 	cursor: pointer;
+	bottom: 20px;
+	right: 20px;
 }
 .scroll-to-top i {
 	font-size: 3em;
 }
 
 .scroll-to-top > i:hover {
-		top: 0.2em;
+	top: 0.2em;
 	background-color: rgb(63, 24, 236);
 }

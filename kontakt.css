@@ -30,7 +30,7 @@ header {
 
 }
 
-.meny-box>a {
+.meny-box > a {
 
 	padding: 0.5em 1em;
 	border: 2px solid white;
@@ -51,45 +51,38 @@ header {
 }
 
 h1 {
-color:white;
-align-items: center;
+color:var(--primary-color);
+text-align: center;
 text-align: 2em;
 padding: 0.1em;
 margin: 0.2em;
 }
 
 h2 {
-color:white;
-align-items: center;
-text-align: 1em;
+color:var(--primary-color);
+text-align: center;
 }
 
 h3{
-	color:white;
-	align-items:center;
-	text-align:0.5em;
+	color:var(--primary-color);
+	text-align: center;
+}
+/* För att kunna skriva in "meddelande" */
+.form-section {
+	text-align: center;
+}
+.form-textning {
+	text-align: center;
 }
 
-.flex-container {
-	display:flex;
-	background-color: none;
-	justify-content: space-around; /*för att lägga boxarna jämt*/
-	width: 100%;
-}
-
-.flex-container > div {
-	flex: 0.5em; /*lika mycket plats i boxarna*/
-	margin: 5em;
-	padding: 5em;
-	font-size: 1em;
-	border:1px solid #1b026d; /* Skapar kantlinje */
+button {
+	background-color:var(--primary-color);
+	align-items: center;
 }
 
 
-.form-section label {
-	color: white;
-}
 
+/* Måste bli validerad */
 input:valid {
 	border-right: 0.3em solid green;
 }
@@ -104,12 +97,8 @@ input:invalid {
 	color: red;
 	font-weight: bold;
 }
-.form-textning label {
-	color: white;
-	font-size: 18px;
-}
+
 .form-textning input {
 	height: 5em;
 	width: 20em;
-	text-align: left;
 }
