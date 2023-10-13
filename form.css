@@ -67,7 +67,7 @@ input:invalid+.error-message {
 
 .skickaknapp {
 	display: flex;
-	width: 100%;
+    width: 100%;
 }
 
 .skickaknapp a {
