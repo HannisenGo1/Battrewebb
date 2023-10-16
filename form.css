@@ -27,7 +27,7 @@ form {
 
 .form-number {
 	color: white;
-	margin: 0.5 0;
+	margin: 0.5em 0;
 }
 
 .radio {
@@ -51,23 +51,19 @@ input:invalid {
 }
 
 input:invalid+.error-message {
-	visibility: visible;
+	visibility: hidden;
 }
 
 /* stil för ansökningscontainern */
 .ansök-container {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	height: 4em;
-	width: 100%;
+
 }
 
 /* stil för skicka-knappen */
 
 .skickaknapp {
 	display: flex;
-    width: 100%;
 }
 
 .skickaknapp a {
@@ -76,5 +72,5 @@ input:invalid+.error-message {
 	font-weight: bold;
 	/* gör texten fet */
 	font-size: 1.5em;
-	text-align: left;
+	text-align: center;
 }

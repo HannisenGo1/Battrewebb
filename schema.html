@@ -143,13 +143,13 @@ användarupplevelse.</h2>
 </div> 
 </div>
 
-
+<!-- formulär upplägget!-->
 	<br>
 	<h1>BOKNING</h1>
 <form>
 	<section class="form-section">
-		<label for="förnamn">Namn</label>
-		<input id="Förnamn+Efternamn" type="text" minlenght="2" maxlength="30" value="" placeholder="Förnamn och Efternamn" required  />
+		<label for="förnamn och efternamn">Namn</label>
+		<input id="Förnamn+Efternamn" type="text" minlength=6  value="" placeholder="Förnamn och Efternamn" required  />
 		<p class="error-message"> var vänlig skriv in ditt namn</p>
 	</section>
 
@@ -172,15 +172,17 @@ användarupplevelse.</h2>
 
 
 <h4>BESTÄLLNING AV MAT: </h4>
-<h4> <input type="radio" id="Kyckling" name="form-box" value="kyckling" <label for="Kyckling">Kyckling</label>
 
- <input type="radio" id="Fisk" name="form-box" value="fisk" <label for="Fisk">Fisk</label>
+<!-- name attributen gör att användaren endast kan välja ett utav dessa val, i detta fall "mat"-->
+<h4> <input type="radio" id="Kyckling" name="mat" value="kyckling" <label for="Kyckling">Kyckling</label>
 
- <input type="radio" id="Kött" name="form-box" value="kött"  <label for="kött">Kött</label>
+ <input type="radio" id="Fisk" name="mat" value="fisk" <label for="Fisk">Fisk</label>
 
-<input type="radio" id="Vegan" name="form-box" value="vegan" <label for="Vegan">Vegan</label>
+ <input type="radio" id="Kött" name="mat" value="kött"  <label for="kött">Kött</label>
 
- <input type="radio" id="Vegetarisk" name="form-box" value="vegetarisk"  <label for="Vegetarisk">Vegetarisk</label>
+<input type="radio" id="Vegan" name="mat" value="vegan" <label for="Vegan">Vegan</label>
+
+ <input type="radio" id="Vegetarisk" name="mat" value="vegetarisk"  <label for="Vegetarisk">Vegetarisk</label>
 </h4>
 <H4> ÖVRIGA ALLERGIER </H4>
 <section class="form-section">
@@ -188,6 +190,7 @@ användarupplevelse.</h2>
 	<input id="överiga-allergier" type="text" value="" placeholder=""  />
 </section>
 
+<!-- skicka knapp som gör att man kommer till sidan "bokat" bekräftelse-->
 <div class="ansök-container">
 	<div class="skickaknapp">
 		<a href="boka.html"> Skicka din bokning</a>
