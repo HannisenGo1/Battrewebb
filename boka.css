@@ -19,6 +19,23 @@ color:white;
 
 .flex-container {
 display: flex;
-margin: 15em;
-justify-content: center;
+margin: 4em;
+justify-content: left;
+}
+
+/* stil för tillbaka-knappen */
+
+.Tillbaka-container {
+	display: flex;
+	margin: 1em;
+
+}
+
+.Tillbaka-container a {
+	color: white;
+	margin: 0.5em;
+	font-weight: bold;
+	/* gör texten fet */
+	font-size: 1.5em;
+	text-align: left;
 }
