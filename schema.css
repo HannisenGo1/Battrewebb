@@ -1,8 +1,7 @@
 /*Media Query för skärmbredd över 350px*/
 @media screen {
-	body {
 	min-width: 350px;
-	}
+
 }
 :root {
 	/*Variabler för css här*/
@@ -16,7 +15,9 @@ body {
     background-size: cover; /*täcker hela skärmen*/
 	background-repeat: no-repeat; /*förhindra upprepning*/
 	background-attachment: fixed;   /*fäster bakgrundsbilden*/
-	display: block;
+	isplay: block;
+	margin: 1em;
+	min-width: 350px;
 	
 }
 
