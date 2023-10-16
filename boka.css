@@ -1,3 +1,4 @@
+/*Bakgrundsbild och stil för sidan*/
 body {
 	background-image: url(cyberny.jpg);
 	background-size: cover;
@@ -6,15 +7,9 @@ body {
 	/*förhindra upprepning*/
 	background-attachment: fixed;
 	/*fäster bakgrundsbilden*/
-}
-body {
 	display: block;
 	margin: 1em;
-	@media screen {
-			
-				min-width: 350px;
-			}
-
+	min-width: 350px;
 }
 
 h1 {
@@ -25,7 +20,5 @@ color:white;
 .flex-container {
 display: flex;
 margin: 15em;
-align-items: center;
+justify-content: center;
 }
-
-	
