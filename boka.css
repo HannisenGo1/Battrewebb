@@ -9,28 +9,29 @@ body {
 	/*fäster bakgrundsbilden*/
 	display: block;
 	min-width: 345px;
+	margin:0em;
 }
 
 h1 {
 text-align: left;
 color:white;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 1.5em;
-margin: 0.5em;
-padding: 2em;
+font-size: 1.4em;
+margin: 0.3em;
+padding: 0.5em;
 }
 
 /* stil för tillbaka-knappen */
 
 .Tillbaka-container {
 	display: flex;
-	margin: 1em;
+	margin: 0.4em;
 
 }
 
 .Tillbaka-container a {
 	color: white;
-	margin: 0.5em;
+	margin: 0.4em;
 	font-weight: bold;
 	/* gör texten fet */
 	font-size: 1.5em;
