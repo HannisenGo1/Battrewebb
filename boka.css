@@ -8,19 +8,16 @@ body {
 	background-attachment: fixed;
 	/*fäster bakgrundsbilden*/
 	display: block;
-	margin: 1em;
 	min-width: 350px;
 }
 
 h1 {
-text-align: center;
+text-align: left;
 color:white;
-}
-
-.flex-container {
-display: flex;
-margin: 4em;
-justify-content: left;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2em;
+margin: 2em;
+padding: -2em;
 }
 
 /* stil för tillbaka-knappen */
