@@ -10,6 +10,10 @@ body {
 body {
 	display: block;
 	margin: 1em;
+	@media screen {
+			
+				min-width: 350px;
+			}
 
 }
 
@@ -20,7 +24,7 @@ color:white;
 
 .flex-container {
 display: flex;
-margin: 20em;
+margin: 15em;
 align-items: center;
 }
 
