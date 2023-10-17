@@ -137,7 +137,6 @@ h5 {
 
 .container {
   display:flex;
-  
 }
 .knapp {
 background-color: gainsboro;
@@ -149,16 +148,4 @@ background-color: gainsboro;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	padding: 0.5em;
 	font-size: 1em;
-
-}
-
-.email:invalid {
-color: red;
-}
-
-.footer {
-	background-color: none;
-}
-.footer p {
-	color:white;
 }
