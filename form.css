@@ -25,10 +25,6 @@ form {
 	flex-direction: row;
 }
 
-.form-number {
-	color: white;
-	margin: 0.5em 0;
-}
 
 .radio {
 	cursor: pointer;

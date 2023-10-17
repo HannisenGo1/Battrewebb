@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<link href="form.css" rel="stylesheet" type="text/css">
@@ -10,15 +10,12 @@
 </head>
 <body>
 
-<a href="#top" class="scroll-to-top">
+<a href="#top" class="scroll">
 	<i class="fas fa-arrow-up" style="color: white;"></i>
 </a>
 
 <!-- Platsen längst upp på sidan -->
 <div id="top"></div>
-
-
-
 	<div class="meny-box">
 		<a href="index.html"> Startsidan</a>
 		<a href="#"> Program & bokning</a>
@@ -34,8 +31,6 @@ Maten ingår med dagspasset!<br>
 För att kunna delta behöver man <br>
 vara över 16år. </h2>
 </div>
-
-
 	
 	<h1><u> DATUM: 20 Oktober </u></h1> <br>
 
@@ -136,9 +131,10 @@ surfplattor.</h2>
 
 <h1> <input type="checkbox" id= "prestanda" value>
 	<label for="prestanda"> Webbplatsprestanda och optimering<br> kl:17.20-20.000</label>
-	</h1>
-<h2>* Lär dig att förbättra webbplatsens laddningstider och prestanda<br> för att säkerställa en snabb och responsiv
-användarupplevelse.</h2>
+</h1>
+<h2> * Lär dig att förbättra webbplatsens laddningstider och prestanda<br> för att säkerställa en snabb och responsiv
+användarupplevelse.
+</h2>
 <br>
 <h5>
 	<input type="checkbox" id="dagspass22" value>  
@@ -152,48 +148,42 @@ användarupplevelse.</h2>
 <label for="allabox"> Boka alla dagar För 1500 kronor! </label>
 	</h5>
 	</div>
-
-
 	<br>
 	<h1>BOKNING</h1>
+
 	<!-- formulär upplägget!-->
-<form>
+<form action="boka.html">
 	<section class="form-section">
 		<h4>
 		<label for="Förnamn+Efternamn">Namn</label>
-		<input id="Förnamn+Efternamn" type="text" minlength="6"  value="" placeholder="Förnamn och Efternamn" required>
+		<input id="Förnamn+Efternamn" type="text" minlength="3"  value="" placeholder="Skriv in ditt namn här" required>
 		</h4>
-		<p class="error-message"> var vänlig skriv in ditt namn</p>
-	</section>
+<p class="error-message"> var vänlig skriv in ditt namn</p>
+	 </section>
 
 	<section class="form-section">
 		<h4>
 		<label for="Adress">Adress</label>
-		<input id="Adress" type="text" minlength="6" value="" placeholder="Adress" required>
+		<input id="Adress" type="text" value="" placeholder="Skriv in din adress här" required>
 		</h4>
-	<p class="error-message"> var vänlig skriv in ditt efternamn</p>
-		
+<p class="error-message"> var vänlig skriv in din adress</p> 		
 	</section>
 
 		<section class="form-section">
 			<h4>
-			<label for="email-adress">E-post</label>
-			<input id="email-adress" type="text" minlength=7 value="" placeholder="E-postadress" required>
+			<label for="email">E-post</label>
+			<input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required 
+			placeholder="Skriv in din epost här">
+		
 			</h4>
 			<p class="error-message"> var vänlig skriv in email-adress</p>
-			
 		</section>
 
-		<section class="form-number">
-			<h4>
-			<label for="Ålder"> Ålder </label>
-			<input id="Ålder" type="number" value="" placeholder="Ålder" required min="16" max="100">
-			</h4>
-		</section>
 
+
+		
 
 <h4>BESTÄLLNING AV MAT: </h4>
-
 <!-- name attributen gör att användaren endast kan välja ett utav dessa val, i detta fall "mat"-->
 
 <h4> 
@@ -201,33 +191,39 @@ användarupplevelse.</h2>
 <label for="Kyckling">Kyckling</label>
  <input type="radio" id="Fisk" name="mat" value="fisk"> 
  <label for="Fisk">Fisk</label>
- <input type="radio" id="Kött" name="mat" value="kött">  
- <label for="Kött">Kött</label>
 <input type="radio" id="Vegan" name="mat" value="vegan"> 
 <label for="Vegan">Vegan</label>
  <input type="radio" id="Vegetarisk" name="mat" value="vegetarisk">  
  <label for="Vegetarisk">Vegetarisk</label>
+<input type="radio" id="ingenmat" name="mat" value="ingen">
+<label for="ingenmat">Ingen mat</label>
 </h4>
 
-
-
-<H4> ÖVRIGA ALLERGIER: </H4>
-<section class="form-allergi">
+<h4> ÖVRIGA ALLERGIER: </h4>
+      <section class="form-allergi">
 	<label for="allergier"> </label>
 	<input id="allergier" type="text" value="" placeholder="">
-</section>
+      </section>
+
+
+
 
 <!-- skicka knapp som gör att man kommer till sidan "bokat" bekräftelse-->
-<div class="ansök-container">
-	<div class="skickaknapp">
-		<a href="boka.html"> Skicka din bokning</a>
-	</div>
+<div class="container">
+    <button class="knapp"> Spara </button> 
+      <button class="knapp2"> <a href="boka.html">Skicka in</a></button>
+
 </div>
+
 
 </form>
 
+<section class="footer">
+	<p>© Copyright 1993 </p>
+</section>
 </body>
 </html>
+
 
 
 

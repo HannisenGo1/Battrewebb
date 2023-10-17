@@ -114,17 +114,17 @@ h5 {
 
 /* vid klickning scrollas man till toppen av sidan*/
 
-.scroll-to-top {
+.scroll {
 	position: fixed;
 	cursor: pointer;
 	bottom: 20px;
 	right: 20px;
 }
-.scroll-to-top i {
+.scroll i {
 	font-size: 3em;
 }
 
-.scroll-to-top > i:hover {
+.scroll > i:hover {
 	top: 0.2em;
 	background: rgb(63, 24, 236);
 }
@@ -134,3 +134,31 @@ h5 {
 	width: 15em;
 }
 
+
+.container {
+  display:flex;
+  
+}
+.knapp {
+background-color: gainsboro;
+
+
+}
+.knapp2 {
+	background-color: rgb(41, 201, 41);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 0.5em;
+	font-size: 1em;
+
+}
+
+.email:invalid {
+color: red;
+}
+
+.footer {
+	background-color: none;
+}
+.footer p {
+	color:white;
+}
