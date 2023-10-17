@@ -130,8 +130,14 @@ h5 {
 	background: rgb(63, 24, 236);
 }
 
-
 .form-allergi input {
 	height: 5em;
 	width: 15em;
+}
+
+.form-mejl {
+	color: white;
+	flex-direction: column;
+	/* göra det till column */
+	margin: 1em 0;
 }
