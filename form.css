@@ -7,7 +7,7 @@ form {
 }
 
 .form-section {
-	display: flex color: white;
+	color: white;
 	flex-direction: column;
 	/* göra det till column */
 	margin: 1em 0;
