@@ -21,25 +21,21 @@ body {
 	
 }
 
-header {
-	padding: 0.5em;
-	font-size: 1.1em;
-	margin: 0.3em;
-	text-align: center;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 /*Menyn & Knapparna ! */
 .meny-box {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 0.5em;
+	font-size: 1.1em;
 
 }
 
 .meny-box>a {
 
-	padding: 0.5em 1em;
+	padding: 0.5em 0.8em;
 	border: 2px solid white;
 	margin: 1em 0.2em;
 	background-color: var(--primary-color);
