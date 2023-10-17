@@ -1,7 +1,6 @@
 /*Media Query för skärmbredd över 350px*/
 @media screen {
 	min-width: 350px;
-
 }
 :root {
 	/*Variabler för css här*/
@@ -84,7 +83,7 @@ h4 {
 h5 {
 			text-align: center;
 			font-size: 1.5em;
-			color: var(--primary-color1);
+			color: var(--primary-color);
 			margin: 0em;
 		}
 
@@ -135,9 +134,3 @@ h5 {
 	width: 15em;
 }
 
-.form-mejl {
-	color: white;
-	flex-direction: column;
-	/* göra det till column */
-	margin: 1em 0;
-}
