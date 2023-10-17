@@ -101,6 +101,14 @@ h5 {
 	text-align: row;
 }
 
+.textbox {
+			display: flex color: white;
+			flex-direction: column;
+			/* göra det till column */
+			margin: 1em 0;
+		}
+}
+
 /*Pilen som är längst ner*/ 
 .pilen {
 	font-family: 'FontAwesome';
