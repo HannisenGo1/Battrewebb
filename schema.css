@@ -97,7 +97,7 @@ h5 {
 }
 
 .textbox {
-			display: flex color: white;
+			display: flex; color: white;
 			flex-direction: column;
 			/* göra det till column */
 			margin: 1em 0;

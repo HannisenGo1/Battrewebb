@@ -142,12 +142,12 @@ användarupplevelse.
  </h5>
 </div>
 
-	<div class="textbox">
+<div class="textbox">
 	<h5>
-<input type="checkbox" id= "allabox" value> 
-<label for="allabox"> Boka alla dagar För 1500 kronor! </label>
+    <input type="checkbox" id= "allabox" value> 
+    <label for="allabox"> Boka alla dagar För 1500 kronor! </label>
 	</h5>
-	</div>
+</div>
 	<br>
 	<h1>BOKNING</h1>
 
@@ -156,34 +156,30 @@ användarupplevelse.
 <form action="boka.html">
 
 	<section class="form-section">
-		<h4>
+	<h4>
 		<label for="Förnamn+Efternamn">Namn</label>
 		<input id="Förnamn+Efternamn" type="text" minlength="3"  value="" placeholder="Skriv in ditt namn här" required>
-		</h4>
+	</h4>
 <p class="error-message"> var vänlig skriv in ditt namn</p>
 	 </section>
 
 	<section class="form-section">
-		<h4>
+	<h4>
 		<label for="Adress">Adress</label>
 		<input id="Adress" type="text" value="" placeholder="Skriv in din adress här" required>
-		</h4>
+	</h4>
 <p class="error-message"> var vänlig skriv in din adress</p> 		
 	</section>
 
-		<section class="form-section">
-			<h4>
-			<label for="email">E-post</label>
-			<input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required 
-			placeholder="Skriv in din epost här">
+	<section class="form-section">
+	<h4>
+		<label for="email">E-post</label>
+		<input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required 
+		placeholder="Skriv in din epost här">
 		
-			</h4>
-			<p class="error-message"> var vänlig skriv in email-adress</p>
-		</section>
-
-
-
-		
+	</h4>
+		<p class="error-message"> var vänlig skriv in email-adress</p>
+	</section>
 
 <h4>BESTÄLLNING AV MAT: </h4>
 <!-- name attributen gör att användaren endast kan välja ett utav dessa val, i detta fall "mat"-->
@@ -202,19 +198,16 @@ användarupplevelse.
 </h4>
 
 <h4> ÖVRIGA ALLERGIER: </h4>
-
-      <section class="form-allergi">
+<section class="form-allergi">
 	<label for="allergier"> </label>
 	<input id="allergier" type="text">
-      </section>
-
-
+ </section>
 
 
 <!-- skicka knapp som gör att man kommer till sidan "bokat" bekräftelse-->
 <div class="container">
     <button class="knapp"> Spara </button> 
-      <button class="knapp2">Skicka in</button>
+    <button class="knapp2">Skicka in</button>
 </div>
 
 </form>
