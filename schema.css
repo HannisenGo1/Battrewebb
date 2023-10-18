@@ -142,3 +142,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 	padding: 0.5em;
 	font-size: 1.1em;
 }
+
+.matcontainer {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
