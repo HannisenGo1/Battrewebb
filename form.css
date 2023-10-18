@@ -57,17 +57,7 @@ input:invalid+.error-message {
 
 }
 
-/* stil för skicka-knappen */
-
-.skickaknapp {
-	display: flex;
-}
-
-.skickaknapp a {
-	color: white;
-	margin: 0.5em;
-	font-weight: bold;
-	/* gör texten fet */
-	font-size: 1.5em;
-	text-align: center;
+.form-allergi input {
+	height: 5em;
+	width: 15em;
 }
