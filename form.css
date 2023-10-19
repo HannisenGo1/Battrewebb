@@ -4,27 +4,20 @@ form {
 	margin: 0.5em 0;
 	padding: 0 1em;
 	/* första är upptill */
+	flex-wrap: wrap;
 }
 
 .form-section {
-	color: white;
-	flex-direction: column;
-	/* göra det till column */
-	margin: 1em 0;
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+min-width: 45%;
 }
 
-.form-section label {
-	color: white;
+.form-box {
+	flex:1;
+	padding:1em;
 }
-
-.form-section button {
-	max-width: 10em;
-}
-
-.form-section.row {
-	flex-direction: row;
-}
-
 
 .radio {
 	cursor: pointer;
