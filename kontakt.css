@@ -92,7 +92,6 @@ button {
 }
 
 
-
 /* Måste bli validerad */
 input:valid {
 	border-right: 0.3em solid green;
@@ -108,5 +107,3 @@ input:invalid {
 	color: red;
 	font-weight: bold;
 }
-
-
