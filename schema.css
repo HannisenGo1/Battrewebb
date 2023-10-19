@@ -204,5 +204,20 @@ margin:1em;
 border-radius: 20px;
 }
 
+/* Bilder */
+.bild-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	justify-content: left;
+	align-items: left;
+}
 
-
+.bild img {
+	width: 150px;
+	height: 100px;
+	color: white;
+	border-radius: 20px;
+	margin: 2em;
+}
