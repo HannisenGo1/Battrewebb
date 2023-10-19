@@ -24,11 +24,10 @@
 
 
 	
-<h1><u> Program och bokning</u> </h1>
-<h2>
+<h1>
 Kurserna kostar 200:- styck<br>
 Dagspasset kostar 600:-  <br> 
-Maten ingår med dagspasset!</h2>
+Maten ingår med dagspasset!</h1>
 
 
 
@@ -153,18 +152,21 @@ Maten ingår med dagspasset!</h2>
 <form action="boka.html">
 
 <section class="form-section">
+	<div class="form-box">
 	<h4>
 		<label for="Förnamn+Efternamn">Namn</label> <br>
 		<input id="Förnamn+Efternamn" type="text" minlength="3"  value="" placeholder="Skriv in ditt namn här" required>
 	</h4>
 <p class="error-message"> var vänlig skriv in ditt namn</p>
-	 
+</div> 
+  <div class="form-box">
 	<h4>
 		<label for="Adress">Adress</label><br>
 		<input id="Adress" type="text" value="" placeholder="Skriv in din adress här" required>
 	</h4>
 <p class="error-message"> var vänlig skriv in din adress</p> 		
-	
+  </div>
+	<div class="form-box">
 	<h4>
 		<label for="email">E-post</label> <br>
 		<input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required 
@@ -172,6 +174,7 @@ Maten ingår med dagspasset!</h2>
 		
 	</h4>
 		<p class="error-message"> var vänlig skriv in email-adress</p>
+	</div>
 </section>
 
 <h4>BESTÄLLNING AV MAT: </h4>
@@ -202,7 +205,7 @@ Maten ingår med dagspasset!</h2>
 
 <div class="container2">
 	<button type="submit" class="knapp2">BOKA</button>
-<div class="container">
+<div class="container1">
     <button type="reset" class="knapp1"> Rensa </button> 
 
 </div>
